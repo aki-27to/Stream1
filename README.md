@@ -8,4 +8,5 @@
 
 ・デバッガーを使う
 
-<img width="1101" alt="スクリーンショット 2022-12-25 11 58 50" src="https://user-images.githubusercontent.com/120763272/209455691-7ac00cc4-c246-4949-96ea-401eee668f80.png">
+
+<img width="762" alt="スクリーンショット 2022-12-25 12 00 13" src="https://user-images.githubusercontent.com/120763272/209455707-f010301e-e79a-49b5-885e-f21d23c99927.png">
