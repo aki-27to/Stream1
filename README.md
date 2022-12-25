@@ -1,4 +1,4 @@
-# Stream1
+# 初めてのStream
 課題内容
 
 ・Streamを試す
