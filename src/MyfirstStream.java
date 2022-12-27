@@ -17,11 +17,13 @@ public class MyfirstStream {
         long count = names.stream().filter(name -> name.startsWith("y")).count();
         System.out.println(count);
         System.out.println("\n");
-        //yamadaと同じ文字列を取得したらtrueを表示、ない場合はfalseを表示
-        System.out.println("■[yamada]がいたら[true]を表示し、いなければ[false]を表示する");
-        boolean hasYamada = names.stream().anyMatch(name -> name.equals("yamada"));
+        //yamada→tanakaと同じ文字列を取得したらtrueを表示、ない場合はfalseを表示
+        System.out.println("■[tanaka]がいたら[true]を表示し、いなければ[false]を表示する");
+        boolean hasYamada = names.stream().anyMatch(name -> name.equals("tanaka"));
         System.out.println(hasYamada);
         System.out.println("\n");
+
+
         //map
         System.out.println("■リストの中身を小文字から大文字に変換する");
         List<String> names2 = names.stream().map(String::toUpperCase).collect(Collectors.toList());
